@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    background: blue;
+    min-height: 600px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    display: block;
+    color: crimson;
+    font-size: 25px;
+    margin: 0 15px;
+}
+
+
+
